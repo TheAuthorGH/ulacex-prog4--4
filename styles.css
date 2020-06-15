@@ -1,0 +1,97 @@
+:root {
+  font-size: 10px;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  font-size: 1.6rem;
+  font-family: sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  background-color: inherit;
+  font-size: inherit;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #922;
+  color: #FFF;
+  font-size: 2rem;
+  padding: 1.6rem;
+}
+
+main {
+  padding: 2.4rem;
+  display: flex;
+  flex-direction: column;
+  color: #444;
+  max-width: 800px;
+}
+
+nav {
+  max-width: 400px;
+  padding: 1.6rem;
+  background-color: #EEE;
+  margin-bottom: 2.8rem;
+}
+
+nav h3 {
+  font-size: 1.8rem;
+  margin-bottom: 1.6rem;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav li {
+  margin-bottom: 0.4rem;
+}
+
+nav a {
+  color: #222;
+}
+nav a:hover {
+  color: #555;
+}
+nav a.active {
+  color: #822;
+  font-weight: bold;
+}
+
+main h2 {
+  color: #222;
+  font-size: 2rem;
+  margin-bottom: 1.2rem;
+}
+
+main > h3 {
+  padding-bottom: 0.4rem;
+  margin-top: 1.6rem;
+  margin-bottom: 1.2rem;
+  color: #222;
+  font-weight: lighter;
+  font-size: 1.8rem;
+  border-bottom: 2px #722 solid;
+}
+
+main p {
+  margin-bottom: 1rem;
+}
+
+main ul {
+  list-style-position: inside;
+}
+
+main strong {
+  color: #222;
+  font-weight: bold;
+}
+
+main em {
+  font-style: italic;
+}
