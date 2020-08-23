@@ -120,5 +120,7 @@ th, td {
 
 img {
   padding: 0.8rem;
+  margin-top: 1.6rem;
+  margin-bottom: 1.6rem;
   border: 2px #992222 ridge;
 }
