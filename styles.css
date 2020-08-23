@@ -104,3 +104,12 @@ main em {
   font-size: 1.4rem;
   background-color: #FFEEEE;
 }
+
+table, th, td {
+  border: 1px #222222 solid;
+}
+
+th, td {
+  padding: 0.4rem;
+  text-align: center;
+}
