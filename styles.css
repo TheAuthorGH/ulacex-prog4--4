@@ -95,3 +95,12 @@ main strong {
 main em {
   font-style: italic;
 }
+
+.snippet {
+  padding: 0.8rem;
+  margin-bottom: 1.6rem;
+  border: 1px black solid;
+  border-radius: 3px;
+  font-size: 1.4rem;
+  background-color: #FFEEEE;
+}

@@ -1,0 +1,82 @@
+<html lang="es">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,300;1,400&display=swap" rel="stylesheet">
+
+    <title>
+      Generalidades de Java y OOP
+    </title>
+  </head>
+
+  <body>
+    <header>
+      <h1>Generalidades de Java y OOP</h1>
+    </header>
+
+    <main>
+      <nav>
+        <h3>Índice</h3>
+        <ul>
+        <li>
+          <a href="java2b.html">
+            Java - Historia y Versiones
+          </a>
+        </li>
+        <li>
+          <a href="java3b.html">
+            Java - Características y funcionamiento
+          </a>
+        </li>
+        <li>
+          <a class="active" href="java4b.html">
+            Java - Desarrollo e IDEs
+          </a>
+        </li>
+        </ul>
+      </nav>
+
+      <h2>Java - Desarrollo e IDEs</h2>
+
+      <h3>Compilar utilizando interfaz de comandos</h3>
+
+      <p>Para desarrollar en Java, solamente es necesario tener un <em>JDK</em> (Java Development Kit) compatible con el sistema operativo que se desea usar.</p>
+
+      <p>Al instalar el JDK obtenemos acceso a la interfaz de comandos de utilidad para desarrollo en Java. Esto incluye el comando <code>javac</code> (abreviación de "Java compile"), el cual podemos utilizar para compilar un archivo Java (por ejemplo, <code>Main.java</code>:</p>
+
+      <code class="snippet">javac Main.java</code>
+
+      <p>Esto genera un archivo <code>.class</code> que contiene el bytecode listo para ejectura de nuestro programa. Luego para ejecutar nuestro programa basta con ejecutar:</p>
+
+      <code class="snippet">java Main</code>
+
+      <p>Consideremos que nuestro archivo <code>Main.java</code> contiene lo siguiente:</p>
+      <code class="snippet">
+        public class Main {
+          public static void main(String[] arguments) {
+            System.out.println("Prueba de compilado");
+          }
+        }
+      </code>
+
+
+      <p>Al correr <code>java Main</code> obtendríamos el siguiente resultado en la consola:</p>
+      <code class="snippet">
+        Prueba de compilado
+      </code>
+
+      <h3>IDEs Recomendados</h3>
+      <ul>
+        <li>
+          <a href="https://www.jetbrains.com/idea/download/">IntelliJ Idea:</a>
+          Considerado el estandar para desarrollo en Java profesional. Incluye soporte para tecnologías web.
+        </li>
+
+        <li>
+          <a href="https://www.eclipse.org/eclipseide/">Eclipse:</a>
+          Existen dos versiones principales, una para desarrollo en Java puro solamente, y otra (Eclipse EE) con soporte para tecnologías web y ciertas bases de datos.
+        </li>
+      </ul>
+    </main>
+  </body>
+</html>
